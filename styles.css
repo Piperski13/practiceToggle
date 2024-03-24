@@ -15,7 +15,6 @@ h1{
   background-color: green;
   color: whitesmoke;
 }
-
 .centered{
   display: flex;
   justify-content: center;
