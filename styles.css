@@ -23,9 +23,11 @@ h1{
   height: 100vh;
 }
 .button-box{
+  border-radius: 10px;
   border: 2px solid whitesmoke;
 }
 .border-toggle{
+  border-radius: 10px;
   border: 2px solid green;
 }
 .toggle-button:hover{
