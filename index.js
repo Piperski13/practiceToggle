@@ -18,3 +18,21 @@ function turnOffPreviousButton() {
     value.classList.remove('is-toggled');
   }
 }
+
+function toggleBox(selector) {
+  const button = document.querySelector(selector);
+  if (!button.classList.contains('border-toggle')) {
+    // turnOffPreviousBox();
+    button.classList.add('border-toggle');
+  } else {
+    button.classList.remove('border-toggle');
+  }
+}
+// if the button is on, box is green
+
+// function turnOffPreviousBox() {
+//   const value = document.querySelector('.border-toggle');
+//   if(value){
+//     value.classList.remove('border-toggle');
+//   }
+// }

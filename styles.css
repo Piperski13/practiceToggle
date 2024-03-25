@@ -25,6 +25,9 @@ h1{
 .button-box{
   border: 2px solid whitesmoke;
 }
+.border-toggle{
+  border: 2px solid green;
+}
 .toggle-button:hover{
-  opacity: 0.5;
+  opacity: 0.9;
 }
